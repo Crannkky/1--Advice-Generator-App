@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Manrope", sans-serif;
-  background-color: hsl(218deg, 23%, 16%);
-}
-
 .container {
   width: 100vw;
   height: 100vh;
@@ -83,4 +74,12 @@ body {
   .container .card .divider {
     margin-top: 3.8rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+}/*# sourceMappingURL=general.css.map */
