@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
   position: absolute;
   font-family: $font-fam;
   background-color: $dark-grayish-blue;
@@ -27,11 +28,10 @@ body {
     }
   }
   .advice-container {
-    max-height: 100px;
+    max-height: 150px;
     max-width: 475px;
-    min-height: 100px;
+    min-height: 150px;
     min-width: 475px;
-    margin-bottom: 50px;
 
     #advice {
       font-size: $font-size;
@@ -55,5 +55,9 @@ body {
     padding: 15px 15px;
     border-radius: 50px;
     background-color: $neon-green;
+    transition: ease-in-out;
+    &:hover {
+      box-shadow: 0 0 50px $neon-green;
+    }
   }
 }
