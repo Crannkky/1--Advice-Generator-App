@@ -30,7 +30,7 @@ body {
 }
 .container .advice-id-container #advice-id {
   color: hsl(150deg, 100%, 66%);
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
