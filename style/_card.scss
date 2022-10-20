@@ -4,17 +4,18 @@ body {
 
 .container {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 0.5rem;
   position: absolute;
   font-family: $font-fam;
   background-color: $dark-grayish-blue;
-  max-width: 40rem;
+  max-width: 50rem;
   padding: 30px;
   border-radius: 25px;
 
@@ -22,7 +23,7 @@ body {
     margin-bottom: 10px;
     #advice-id {
       color: $neon-green;
-      font-size: 10px;
+      font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
